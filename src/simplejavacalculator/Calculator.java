@@ -25,9 +25,7 @@ public class Calculator {
         if (mode == BiOperatorModes.multiply) {
             return num1 * num2;
         }
-        if (mode == BiOperatorModes.divide) {
-            return num1 / num2;
-        }
+        
 
         // never reach
         throw new Error();
